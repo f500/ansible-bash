@@ -1,19 +1,21 @@
 Bash
 ========
 
-Install Bash and Bash-completion
+Install zsh and oh-my-zsh
 
 Requirements
 ------------
 
-Debian Wheezy with the package python-pycurl and python-software-properties installed.
+python-pycurl and python-software-properties installed.
 
 Example Playbook
 -------------------------
 
     - hosts: servers
+      vars:
+         user: alex
       roles:
-         - { role: f500.bash }
+         - devbox.oh-my-zsh
 
 License
 -------
@@ -21,6 +23,12 @@ License
 LGPL
 
 Author Information
+------------------
+
+Alex Lourie, djay.il@gmail.com
+Others, 1
+
+Based on bash work by:
 ------------------
 
 Jasper N. Brouwer, jasper@nerdsweide.nl

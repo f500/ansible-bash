@@ -1,14 +1,15 @@
 ---
 galaxy_info:
-  author: "Jasper N. Brouwer, Ramon de la Fuente"
-  description: Install Bash and Bash-completion
-  company: Future500
+  author: "Alex Lourie <djay.il@gmail.com>"
+  description: Install zsh and oh-my-zsh config
   license: LGPL
   min_ansible_version: 1.4
   platforms:
   - name: Debian
     versions:
       - wheezy
+  - name: Ubuntu
+  - name: elementary os
   categories:
     - system
 dependencies: []
