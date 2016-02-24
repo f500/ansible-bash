@@ -26,6 +26,7 @@ Author Information
 ------------------
 
 Alex Lourie, djay.il@gmail.com
+Others
 
 Based on bash work by:
 ------------------
